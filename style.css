@@ -69,6 +69,17 @@ body {
   cursor: pointer;
 }
 
+.menu-bar a {
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
 .schedule {
   max-width: 700px;
   margin: 2rem auto;
