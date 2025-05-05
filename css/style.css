@@ -5,6 +5,13 @@
   font-family: sans-serif;
 }
 
+ @font-face {
+      font-family: 'Besom-Handwritten-Brush-Font';
+      src: url('font/Besom-Handwritten-Brush-Font/Besom-Handwritten-Brush-Font.ttf') format('ttf');
+      font-weight: normal;
+      font-style: normal;
+    }
+
 body {
   background: #fff;
   color: #000;
