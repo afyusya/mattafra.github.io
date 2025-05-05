@@ -12,6 +12,13 @@
       font-style: normal;
     }
 
+@font-face {
+  font-family: 'MoreSugar-Regular';
+  src: url('font/more_sugar/MoreSugar-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: #f4ece5;
   color: #000;
@@ -46,6 +53,11 @@ body {
   width: 600px;
   height: 450px;
   background: #ccc;
+}
+
+p {
+  font: 'MoreSugar-Regular.otf';
+  font-size: 32px;
 }
 
 .rsvp-button {
