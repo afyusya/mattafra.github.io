@@ -6,17 +6,13 @@
 }
 
  @font-face {
-      font-family: 'Besom-Handwritten-Brush-Font';
-      src: url('font/Besom-Handwritten-Brush-Font/Besom-Handwritten-Brush-Font.ttf') format('ttf');
-      font-weight: normal;
-      font-style: normal;
+      font-family: "Besom-Handwritten-Brush-Font";
+      src: url("font/Besom-Handwritten-Brush-Font/Besom-Handwritten-Brush-Font.ttf") format("ttf");
     }
 
 @font-face {
-  font-family: 'MoreSugar-Regular';
-  src: url('font/more_sugar/MoreSugar-Regular.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
+  font-family: "MoreSugar-Regular";
+  src: url("font/more_sugar/MoreSugar-Regular.otf") format("otf");
 }
 
 body {
