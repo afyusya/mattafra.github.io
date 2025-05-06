@@ -265,4 +265,8 @@ body {
   .footer-image {
     max-width: 40px;
   }
+
+  .footer-logo{
+    font-size: 50px;
+  }
 }
