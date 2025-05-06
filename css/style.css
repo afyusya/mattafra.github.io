@@ -161,7 +161,7 @@ body {
 }  
 
 /* Responsive tweaks */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .gallery {
     flex-direction: column;
     align-items: center;
