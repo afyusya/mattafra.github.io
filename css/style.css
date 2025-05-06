@@ -44,10 +44,28 @@ body {
 }
 
 .header {
-  background: #000;
-  color: #f4ece5;
+  background-color: black;
+  color: #f8f1ea;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 1rem;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header-bow {
+  position: absolute;
+  left: 700px;
+  max-width: 100px;
+  height: auto;
+}
+
+.logo-text {
+  text-align: center;
 }
 
 .h1name {
