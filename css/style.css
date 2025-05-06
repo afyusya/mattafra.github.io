@@ -6,8 +6,11 @@
 }
 
  @font-face {
-      font-family: "Besom-Handwritten-Brush-Font";
-      src: url('font/Besom-Handwritten-Brush-Font/Besom-Handwritten-Brush-Font.ttf') format('truetype');
+      font-family: "Besom";
+      src: url('../fonts/Besom.woff2') format('woff2'),
+           url('../fonts/Besom.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
     }
 
 @font-face {
@@ -27,6 +30,7 @@ body {
 }
 
 .logo {
+  font-family: "Besom";
   background: #000;
   color: #f4ece5;
   display: inline-block;
