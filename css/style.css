@@ -84,14 +84,17 @@ body {
 }
 
 .image-box {
-  width: 600px;
-  height: 460px;
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 4/3;
   background: #ccc;
+  flex: 1 1 30%;
 }
 
 .rsvp-button {
   text-align: center;
   margin: 1rem 0;
+  padding: 0 1rem;
 }
 
 .rsvp-button button {
@@ -102,6 +105,9 @@ body {
   cursor: pointer;
   font-size: 18px;
   font-family: "MoreSugarThin";
+  border-radius: 4px;
+  width: 100%;
+  max-width: 250px;
 }
 
 .menu-bar {
@@ -109,7 +115,7 @@ body {
   justify-content: center;
   gap: 1rem;
   margin: 1.5rem 0;
-  flex-wrap: wrap;
+  padding: 0 1rem;
 }
 
 .menu-bar button {
@@ -125,12 +131,12 @@ body {
   font-size: 18px;
   background: #000;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.25rem;
   text-decoration: none;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
+  border-radius: 4px;
   text-align: center;
+  flex: 1 1 150px;
+  max-width: 200px;
 }
 
 .schedule {
@@ -171,13 +177,34 @@ body {
 }  
 
 /* Responsive tweaks */
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   .gallery {
     flex-direction: column;
     align-items: center;
   }
 
+  @media (max-width: 768px) {
+    .image-box {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .menu-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .menu-bar a {
+      width: 100%;
+      max-width: 300px;
+    }
+  
   .menu-bar {
     flex-direction: column;
   }
 }
+
+  .rsvp-button button {
+    width: 100%;
+  }
