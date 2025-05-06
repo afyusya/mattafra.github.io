@@ -14,8 +14,11 @@
     }
 
 @font-face {
-  font-family: "MoreSugar-Regular";
-  src: url('font/more_sugar/MoreSugar-Regular.otf') format('opentype');
+  font-family: "MoreSugarRegular";
+  src: url('../fonts/MoreSugarRegular.woff2') format('woff2'),
+       url('../fonts/MoreSugarRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -26,10 +29,17 @@ body {
 
 .header {
   background: #000;
-  color: #fff;
+  color: #f4ece5;
   text-align: center;
   padding: 1rem 0;
-  margin-top: 2rem;
+}
+
+.h1name {
+  font-family: "MoreSugarRegular";
+  font-size: 18px;
+  color: #f4ece5;
+  display: block;
+  text-align: center;
 }
 
 .logo {
