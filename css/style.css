@@ -50,17 +50,17 @@ body {
   padding: 2rem 1rem;
 }
 
-.header-inner-left {
+.header-inner {
   display: flex;
-  justify-content: center;
   align-items: center;
-  max-width: 900px;
-  margin: 0 auto;
-  position: relative;
+  justify-content: center;
   gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-.header-bow {
+.header-image {
   max-width: 110px;
   height: auto;
   flex-shrink: 0;
@@ -68,7 +68,7 @@ body {
 
 .logo-text {
   text-align: center;
-  flex-grow: 1;
+  flex: 1 1 auto;
 }
 
 .h1name {
@@ -94,6 +94,7 @@ body {
   color: #f4ece5;
   display: inline-block;
   padding: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .gallery {
@@ -231,11 +232,10 @@ body {
   @media (max-width: 600px) {
   .header-inner {
     flex-direction: column;
-    text-align: center;
+    gap: 0.5rem;
   }
 
-  .bow {
+  .side-image {
     max-width: 50px;
-    margin-bottom: 1rem;
   }
 }
