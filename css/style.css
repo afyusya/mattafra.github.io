@@ -50,7 +50,7 @@ body {
   padding: 2rem 1rem;
 }
 
-.header-inner {
+.header-inner-left {
   display: flex;
   justify-content: center;
   align-items: center;
