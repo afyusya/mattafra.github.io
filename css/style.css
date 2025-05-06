@@ -84,8 +84,11 @@ body {
 }
 
 .image-box {
-  width: 600px;
-  height: 450px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   background: #ccc;
 }
 
@@ -100,7 +103,7 @@ body {
   padding: 0.75rem 2rem;
   border: none;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "MoreSugarThin";
 }
 
@@ -162,7 +165,7 @@ body {
 }  
 
 /* Responsive tweaks */
-@media (max-width: 500px) {
+@media (max-width: 786px) {
   .gallery {
     flex-direction: column;
     align-items: center;
