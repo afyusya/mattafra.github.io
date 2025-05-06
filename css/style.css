@@ -21,6 +21,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "MoreSugarThin";
+  src: url('../fonts/MoreSugarThin.woff2') format('woff2'),
+       url('../fonts/MoreSugarThin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: #f4ece5;
   color: #000;
@@ -43,7 +51,7 @@ body {
 }
 
 .date {
-  font-family: "MoreSugarRegular";
+  font-family: "MoreSugarThin";
   font-size: 20px;
   color: #f4ece5;
   display: block;
