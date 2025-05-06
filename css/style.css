@@ -54,20 +54,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   max-width: 900px;
   margin: 0 auto;
+  position: relative;
+  gap: 1rem;
 }
 
 .header-bow {
-  position: absolute;
-  left: 700px;
-  max-width: 100px;
+  max-width: 60px;
   height: auto;
+  flex-shrink: 0;
 }
 
 .logo-text {
   text-align: center;
+  flex-grow: 1;
 }
 
 .h1name {
@@ -230,12 +231,11 @@ body {
   @media (max-width: 600px) {
   .header-inner {
     flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
   .bow {
-    position: static;
-    margin-bottom: 1rem;
     max-width: 50px;
+    margin-bottom: 1rem;
   }
 }
