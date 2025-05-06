@@ -31,7 +31,8 @@ body {
 
 .logo {
   font-family: "Besom";
- background: #000;
+  font-size: 50px;
+  background: #000;
   color: #f4ece5;
   display: inline-block;
   padding: 1rem 2rem;
@@ -113,6 +114,7 @@ body {
 }
 
 .footerlogo {
+  font-family: "Besom";
   background: #000;
   color: #f4ece5;
   display: inline-block;
