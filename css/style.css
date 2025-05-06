@@ -106,8 +106,7 @@ body {
   font-size: 18px;
   font-family: "MoreSugarThin";
   border-radius: 4px;
-  width: 100%;
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .menu-bar {
@@ -135,7 +134,6 @@ body {
   text-decoration: none;
   border-radius: 4px;
   text-align: center;
-  flex: 1 1 150px;
   max-width: 200px;
 }
 
