@@ -207,7 +207,7 @@ body {
 }
 
 .footer-image {
-  max-width: 125px;
+  max-width: 30px;
   height: auto;
   flex-shrink: 0;
 }
@@ -263,10 +263,10 @@ body {
   }
 
   .footer-image {
-    max-width: 40px;
+    max-width: 20px;
   }
 
   .footer-logo{
-    font-size: 50px;
+    font-size: 30px;
   }
 }
