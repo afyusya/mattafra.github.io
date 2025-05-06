@@ -61,7 +61,7 @@ body {
 }
 
 .header-bow {
-  max-width: 60px;
+  max-width: 110px;
   height: auto;
   flex-shrink: 0;
 }
