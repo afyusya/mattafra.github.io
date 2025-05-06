@@ -101,7 +101,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 18px;
-  font-family: "MoreSugarThin";
+  font-family: "MoreSugarRegular";
 }
 
 .menu-bar {
@@ -121,7 +121,7 @@ body {
 }
 
 .menu-bar a {
-  font-family: "MoreSugarThin";
+  font-family: "MoreSugarRegular";
   font-size: 18px;
   background: #000;
   color: #fff;
@@ -143,14 +143,14 @@ body {
 .scheduleheader {
   margin-bottom: 1rem;
   font-family: "Besom";
-  font-size: 30px;
-  color: #fff;
+  font-size: 50px;
+  color: #000;
 }
 
 .scheduletext {
   font-family: "MoreSugarRegular";
   font-size: 15px;
-  color: #fff;
+  color: #000;
 }
 
 .footer {
