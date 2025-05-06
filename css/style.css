@@ -140,8 +140,17 @@ body {
   text-align: center;
 }
 
-.schedule h2 {
+.scheduleheader {
   margin-bottom: 1rem;
+  font-family: "Besom";
+  font-size: 30px;
+  color: #fff;
+}
+
+.scheduletext {
+  font-family: "MoreSugarRegular";
+  font-size: 15px;
+  color: #fff;
 }
 
 .footer {
