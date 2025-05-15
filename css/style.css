@@ -93,8 +93,8 @@ body {
   background: #000;
   color: #f4ece5;
   display: inline-block;
-  padding: 5px;
-  margin-bottom: 0.5rem;
+  padding: 2px;
+  margin-bottom: 1px;
 }
 
 .gallery {
@@ -134,7 +134,7 @@ body {
   font-size: 18px;
   background: #000;
   color: #fff;
-  padding: 4px 60px 9px;
+  padding: 9px 60px 4px;
   text-decoration: none;
   border-radius: 4px;
   text-align: center;
@@ -215,7 +215,10 @@ body {
 
     .menu-bar a {
       width: 100%;
-      max-width: 300px;
+      max-width: 195px;
+      max-height: 30px
+      font-size: 14px;
+      padding: 5px 60px 4px;
     }
   
   .menu-bar {
@@ -236,7 +239,33 @@ body {
   }
 
   .header-image {
-    max-width: 90px;
+    max-width: 65px;
+  }
+
+  .header {
+    height: 184px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .logo {
+    font-size: 35px;
+  }
+
+  .h1name {
+    font-size: 25px;
+  }
+
+  .date {
+    font-size: 18px;
+  }
+
+  .scheduleheader {
+    font-size: 24px;
+  }
+
+  .scheduletext {
+    font-size: 14px;
   }
 }
 
@@ -246,11 +275,15 @@ body {
     gap: 0.5rem;
   }
 
+  .footer {
+    padding: 5px 0;
+  }
+
   .footer-image {
-    max-width: 25px;
+    max-width: 16px;
   }
 
   .footer-logo{
-    font-size: 30px;
+    font-size: 18px;
   }
 }
