@@ -148,11 +148,6 @@ html, body {
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.menu-bar:hover {
-  background-color: #333;
 }
 
 .menu-bar a {
@@ -300,7 +295,6 @@ html, body {
   text-align: center;
   z-index: 1000;
 }
-
 
 /* Responsive tweaks */
 @media (max-width: 480px) {
