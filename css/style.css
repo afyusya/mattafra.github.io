@@ -1,3 +1,4 @@
+/* Global Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,13 +6,14 @@
   font-family: sans-serif;
 }
 
- @font-face {
-      font-family: "Besom";
-      src: url('../fonts/Besom.woff2') format('woff2'),
-           url('../fonts/Besom.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
+/* Font Faces */
+@font-face {
+  font-family: "Besom";
+  src: url('../fonts/Besom.woff2') format('woff2'),
+       url('../fonts/Besom.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "MoreSugarRegular";
@@ -37,6 +39,7 @@
   font-style: normal;
 }
 
+/* Base Styles */
 body {
   background: #f4ece5;
   color: #000;
@@ -49,6 +52,7 @@ body {
   color: #f8f1ea;
   text-align: center;
   padding: 2rem 1rem;
+  width: 100%;
 }
 
 .header-inner {
@@ -56,6 +60,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -120,6 +125,8 @@ body {
   gap: 1rem;
   margin: 1.5rem 0;
   padding: 0 1rem;
+  flex-direction: row;
+  align-items: center;
 }
 
 .menu-bar button {
@@ -166,8 +173,12 @@ body {
   background: #000;
   color: #fff;
   text-align: center;
-  padding: 1rem 0;
+  padding: 5px 0;;
   margin-top: 2rem;
+  margin-bottom: 0;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .footerlogo {
@@ -177,6 +188,7 @@ body {
   color: #f4ece5;
   display: inline-block;
   padding: 5px 2px;
+  width: 100%;
 }
 
 .footer-inner {
@@ -184,6 +196,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -193,6 +206,7 @@ body {
   max-width: 30px;
   height: auto;
   flex-shrink: 0;
+  display: block;
 }
 
 /* Responsive tweaks */
@@ -202,40 +216,31 @@ body {
     align-items: center;
   }
 
-  @media (max-width: 768px) {
-    .image-box {
-      max-width: 100%;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .menu-bar {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .menu-bar a {
-      width: 100%;
-      max-width: 195px;
-      max-height: 30px;
-      font-size: 14px;
-      padding: 5px 60px 4px;
-    }
-  
-  .menu-bar {
-    flex-direction: column;
+  .image-box {
+    max-width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .menu-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-bar a {
+    width: 100%;
+    max-width: 195px;
+    font-size: 14px;
+    padding: 5px 60px 4px;
+  }
 
   .rsvp-button button {
     width: 100%;
   }
 
-  @media (max-width: 600px) {
   .header-inner {
     flex-direction: column;
     gap: 0.5rem;
-    height: 150px;
     width: 100%;
   }
 
@@ -244,8 +249,7 @@ body {
   }
 
   .header {
-    height: 175px;
-    max-width: 100%;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
@@ -271,25 +275,24 @@ body {
   .scheduletext {
     font-size: 14px;
   }
-}
 
-@media (max-width: 600px) {
   .footer-inner {
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
   }
 
   .footer {
     padding: 5px 0;
+    width: 100%;
   }
 
   .footer-image {
     max-width: 16px;
   }
 
-  .footerlogo{
+  .footerlogo {
     font-size: 18px;
     padding: 5px 2px;
-    max-width: 100%;
   }
 }
