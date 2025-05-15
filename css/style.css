@@ -41,6 +41,7 @@ body {
   background: #f4ece5;
   color: #000;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 .header {
@@ -235,7 +236,7 @@ body {
     flex-direction: column;
     gap: 0.5rem;
     height: 150px;
-    width: 368px;
+    width: 100%;
   }
 
   .header-image {
@@ -244,7 +245,7 @@ body {
 
   .header {
     height: 175px;
-    max-width: 700px;
+    max-width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
@@ -289,6 +290,6 @@ body {
   .footerlogo{
     font-size: 18px;
     padding: 5px 2px;
-    max-width: 700px;
+    max-width: 100%;
   }
 }
