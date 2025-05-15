@@ -216,7 +216,7 @@ body {
     .menu-bar a {
       width: 100%;
       max-width: 195px;
-      max-height: 30px
+      max-height: 30px;
       font-size: 14px;
       padding: 5px 60px 4px;
     }
@@ -283,7 +283,7 @@ body {
     max-width: 16px;
   }
 
-  .footer-logo{
+  .footerlogo{
     font-size: 18px;
   }
 }
