@@ -261,7 +261,36 @@ html, body {
   color: #333;
 }
 
+.home-button-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: "MoreSugareThin", sans-serif; /* Match your site's font */
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #333;
+}
+
+
 /* Responsive tweaks */
+@media (max-width: 480px) {
+  .home-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 768px) {
   .gallery {
     flex-direction: column;
