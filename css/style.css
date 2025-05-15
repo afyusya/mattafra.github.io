@@ -113,24 +113,6 @@ body {
   flex: 1 1 30%;
 }
 
-.rsvp-button {
-  text-align: center;
-  margin: 1rem 0;
-  padding: 0 1rem;
-}
-
-.rsvp-button button {
-  background: #000;
-  color: #fff;
-  padding: 0.75rem 2rem;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  font-family: "MoreSugarThin";
-  border-radius: 4px;
-  max-width: 300px;
-}
-
 .menu-bar {
   display: flex;
   justify-content: center;
@@ -152,7 +134,7 @@ body {
   font-size: 18px;
   background: #000;
   color: #fff;
-  padding: 0.5rem 1.25rem;
+  padding: 4px 60px 9px;
   text-decoration: none;
   border-radius: 4px;
   text-align: center;
