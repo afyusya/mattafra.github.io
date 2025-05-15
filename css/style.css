@@ -151,6 +151,10 @@ html, body {
   transition: background-color 0.3s ease;
 }
 
+.menu-bar:hover {
+  background-color: #333;
+}
+
 .menu-bar a {
   font-family: "MoreSugarThin";
   font-size: 18px;
@@ -161,6 +165,7 @@ html, body {
   border-radius: 4px;
   text-align: center;
   max-width: 200px;
+  transition: background-color 0.3s ease;
 }
 
 .schedule {
