@@ -222,6 +222,45 @@ html, body {
   display: block;
 }
 
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.faq-header {
+  font-family: "Besom";
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.faq-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+  font-family: "MoreSugarRegular";
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.faq-item p {
+  font-family: "MoreSugarThin";
+  font-size: 18px;
+  color: #333;
+}
+
 /* Responsive tweaks */
 @media (max-width: 768px) {
   .gallery {
@@ -315,5 +354,21 @@ html, body {
   .footerlogo {
     font-size: 18px;
     padding: 5px 2px;
+  }
+
+  .faq-header {
+    font-size: 36px;
+  }
+
+  .faq-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .faq-item h3 {
+    font-size: 20px;
+  }
+
+  .faq-item p {
+    font-size: 16px;
   }
 }
