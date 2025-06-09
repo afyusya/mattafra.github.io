@@ -295,7 +295,14 @@ html, body {
   max-width: 200px; /* Adjust width to match strip size */
 }
 
-.photobooth-strip 1 {
+.photobooth-strip1 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: rotate(-1deg); /* Slight angle for style */
+}
+
+.photobooth-strip2 {
   width: 100%;
   height: auto;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
