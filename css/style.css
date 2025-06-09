@@ -295,11 +295,9 @@ html, body {
   max-width: 200px; /* Adjust width to match strip size */
 }
 
-.photobooth-strip {
+.photobooth-strip 1 {
   width: 100%;
   height: auto;
-  border: 10px solid #fff;
-  border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transform: rotate(-1deg); /* Slight angle for style */
 }
