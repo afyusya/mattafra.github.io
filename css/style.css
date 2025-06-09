@@ -432,7 +432,7 @@ html, body {
   }
 
   .photobooth-strip {
-    transform: rotate(0deg); /* Less tilt on smaller screens */
+    transform: rotate(-10deg); /* Less tilt on smaller screens */
   }
 }
 
