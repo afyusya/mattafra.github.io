@@ -395,10 +395,6 @@ html, body {
     border-radius: 10px;
   }
 
-  .schedule-image {
-    border-radius: 8px;
-  }
-  
   .footer-inner {
     flex-direction: column;
     gap: 0.5rem;
