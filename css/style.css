@@ -227,10 +227,7 @@ html, body {
 }
 
 .faq-box {
-  background-color: #fff;
-  border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
   text-align: left;
 }
 
