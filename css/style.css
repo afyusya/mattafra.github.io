@@ -264,11 +264,31 @@ html, body {
 .faq-image {
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 800px;
   margin: 12px auto;
-  border-radius: 12px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
   object-fit: cover;
+}
+
+.faq-image-pair {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.faq-image-pair img {
+  width: 100%;
+  max-width: 300px;
+  background: #fff;
+  padding: 8px;
+}
+
+
+.faq-thanks p {
+  font-family: "MoreSugarThin";
+  font-size: 18px;
+  color: #333;
 }
 
 .home-button-container {
