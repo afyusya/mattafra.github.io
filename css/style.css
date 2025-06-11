@@ -150,13 +150,6 @@ html, body {
   max-width: 200px;
 }
 
-.schedule {
-  max-width: 700px;
-  margin: 32px auto;
-  padding: 5px;
-  text-align: center;
-}
-
 .scheduleheader {
   margin-bottom: 1rem;
   font-family: "Besom";
@@ -164,10 +157,20 @@ html, body {
   color: #000;
 }
 
-.scheduletext {
-  font-family: "MoreSugarThin";
-  font-size: 20px;
-  color: #000;
+.schedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.schedule-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .footer {
@@ -377,10 +380,6 @@ html, body {
 
   .scheduleheader {
     font-size: 24px;
-  }
-
-  .scheduletext {
-    font-size: 14px;
   }
 
   .footer-inner {
