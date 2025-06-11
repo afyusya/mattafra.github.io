@@ -279,13 +279,10 @@ html, body {
 
 .faq-image-pair img {
   width: 100%;
-  max-width: 300px;
-  background: #fff;
-  padding: 8px;
+  max-width: 800px;
 }
 
-
-.faq-thanks p {
+.faq-thanks {
   font-family: "MoreSugarThin";
   font-size: 18px;
   color: #333;
