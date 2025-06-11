@@ -167,13 +167,11 @@ html, body {
 .schedule-image {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
   display: block;
 }
 .schedule-card {
   padding: 32px;
-  border: 3px dashed #333;
-  border-radius: 16px;
+  border: 3px solid #333;
   background-color: #fff;
   max-width: 100%;
   display: inline-block;
