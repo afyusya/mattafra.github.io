@@ -170,6 +170,21 @@ html, body {
   border-radius: 12px;
   display: block;
 }
+.schedule-card {
+  padding: 32px;
+  border: 3px dashed #333;
+  border-radius: 16px;
+  background-color: #fff;
+  max-width: 100%;
+  display: inline-block;
+  font-family: "MoreSugarRegular", cursive;
+  box-shadow: 5px 5px 0px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.schedule-card:hover {
+  transform: rotate(-1deg);
+}
 
 .footer {
   background: #000;
