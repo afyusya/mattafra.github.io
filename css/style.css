@@ -154,7 +154,34 @@ html, body {
   max-width: 800px;
   margin: 2rem auto;
   text-align: center;
-  padding: 0 1rem;
+  padding: 50px;
+  position: relative;
+  color: #fff;
+
+  /* Create black-and-white vertical stripes */
+  background-image: repeating-linear-gradient(
+    90deg,
+    #000,
+    #000 20px,
+    #fff 20px,
+    #fff 40px
+  );
+  
+  background-size: 40px 100%;
+  
+  /* Optional: add some texture or a slight fade */
+  background-blend-mode: multiply;
+}
+
+.fade-up {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+.fade-up.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .scheduleheader {
