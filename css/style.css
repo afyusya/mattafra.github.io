@@ -159,12 +159,11 @@ html, body {
 
 .schedule {
   padding: 100px 20px;
-  background-color: #ffffff; /* plain white background instead of stripes */
-  
-  /* Removed stripey background & animation */
-  
+  background-color: #f4ece5;
   text-align: center;
   position: relative;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 
