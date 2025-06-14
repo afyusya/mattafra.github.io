@@ -345,13 +345,12 @@ html, body {
 .overlay-text {
   font-family: "Besom";
   position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%) rotate(-25deg);
-  color: white;
-  font-size: 38px;
+  top: 55%;
+  left: 1%;
+  transform: translateX(-50%) rotate(-23deg);
+  color: #a70000;
+  font-size: 48px;
   font-weight: bold;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
   white-space: nowrap;        /* Prevent line breaks */
   letter-spacing: 0.2em;      /* Spread out letters, adjust as needed */
   pointer-events: none;
