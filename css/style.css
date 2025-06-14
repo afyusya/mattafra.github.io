@@ -157,15 +157,20 @@ html, body {
   color: #000;
 }
 
-.schedule {
-  padding: 100px 20px;
-  background-color: #f4ece5;
-  text-align: center;
-  position: relative;
-  max-width: 50%;
-  margin: 0 auto;
+.schedule-card {
+  margin: 0 auto;           /* center the card */
+  max-width: 100%;          /* limit width if needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* center content horizontally */
 }
 
+.schedule-image {
+  max-width: 100%;          /* make sure image scales inside container */
+  height: auto;
+  display: block;
+  margin: 0 auto;           /* center image if it's inline by default */
+}
 
 .footer {
   background: #000;
