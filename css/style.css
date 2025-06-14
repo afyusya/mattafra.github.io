@@ -525,3 +525,30 @@ html, body {
     border-width: 6px;
   }
 }
+/* Large screens */
+@media (min-width: 1024px) {
+  .text-overlay {
+    font-size: 36px;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+/* Medium screens */
+@media (max-width: 1023px) and (min-width: 600px) {
+  .text-overlay {
+    font-size: 24px;
+    top: 15px;
+    left: 15px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 599px) {
+  .text-overlay {
+    font-size: 18px;
+    top: 10px;
+    left: 10px;
+  }
+}
+
