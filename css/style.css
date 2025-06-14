@@ -143,13 +143,11 @@ html, body {
 /* wrap buttons in a container to add border around all buttons */
 .menu-bar > .buttons-wrapper {
   position: relative;
-  border: 2px solid black;          /* thinner outer border */
   background-color: white;
-  padding: 2rem 4rem;               /* reasonable padding */
+  padding: 120px 650px;               /* reasonable padding */
   display: flex;
   gap: 1rem;
   box-sizing: border-box;
-  border-radius: 8px;
   z-index: 0;
   /* Removed box-shadow inset */
 }
@@ -161,11 +159,11 @@ html, body {
   left: 2px;
   right: 2px;
   bottom: 2px;
-  border: 3px solid black;         /* inner border */
-  border-radius: 6px;              /* slightly smaller radius */
+  border: 2px solid black;         /* inner border */
   pointer-events: none;
   z-index: -1;
   box-sizing: border-box;
+  margin: 3px;
 }
 
 /* if you want me to add the wrapper div in HTML let me know! */
