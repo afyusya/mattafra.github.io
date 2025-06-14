@@ -122,14 +122,9 @@ html, body {
 
 .menu-bar {
   position: relative;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin: 1.5rem 0;
-  padding: 1rem 1rem;
-  flex-direction: row;
-  align-items: center;
+  padding: 3rem 1rem; /* taller vertical padding */
   border: 3px solid black;
+  
   background-image: repeating-linear-gradient(
     90deg,
     black 0,
@@ -139,8 +134,11 @@ html, body {
   );
   background-repeat: repeat;
   background-size: auto;
+  color: #000; /* or #fff depending on preference */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
-  color: #fff;
 }
 
 .menu-bar::before {
@@ -150,13 +148,23 @@ html, body {
   bottom: 3px;
   left: 3px;
   right: 3px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8); /* soften stripes behind */
   pointer-events: none;
   z-index: 0;
   border-radius: 4px;
 }
 
-.menu-bar button {
+.menu-buttons {
+  border: 3px solid black; /* black border around menu buttons */
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  display: flex;
+  gap: 1rem;
+  background-color: white; /* so text/buttons stand out */
+  z-index: 2; /* above the overlay */
+}
+
+.menu-buttons button {
   background: #000;
   color: #fff;
   padding: 0.5rem 1rem;
@@ -164,7 +172,7 @@ html, body {
   cursor: pointer;
 }
 
-.menu-bar a {
+.menu-buttons a {
   font-family: "MoreSugarThin";
   font-size: 18px;
   background: #000;
