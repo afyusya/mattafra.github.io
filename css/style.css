@@ -364,7 +364,7 @@ html, body {
 }
 
 .photobooth-strip {
-  width: 118%;
+  width: 140%;
   height: auto;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transform: rotate(-10deg);
