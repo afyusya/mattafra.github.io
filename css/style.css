@@ -343,12 +343,13 @@ html, body {
 }
 
 .overlay-text {
+  font-family: "MoreSugarThin";
   position: absolute;
   top: 10%; /* adjust vertical position */
   left: 50%;
   transform: translateX(-50%) rotate(-5deg); /* center horizontally and tilt */
   color: white;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
   pointer-events: none; /* so clicks pass through */
