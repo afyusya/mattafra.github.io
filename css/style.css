@@ -157,6 +157,30 @@ html, body {
   color: #000;
 }
 
+.schedule {
+  padding: 32px;
+
+  background-image: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 20px,
+    #000 20px,
+    #000 40px
+  );
+  background-size: 40px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scheduleheader {
+  margin-bottom: 1rem;
+  font-family: "Besom";
+  font-size: 50px;
+  color: #000;
+}
+
 .schedule-image {
   max-width: 100%;
   height: auto;
@@ -168,24 +192,9 @@ html, body {
   border: 3px solid #333;
   background-color: #fff;
   max-width: 100%;
-  display: inline-block;
   font-family: "MoreSugarRegular", cursive;
   box-shadow: 5px 5px 0px rgb(0 0 0 / 0.15);
   transition: transform 0.3s ease;
-  position: relative;
-}
-
-/* Hand-drawn border-like effect */
-.schedule-card::before {
-  content: '';
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  border: 5px solid #000;
-  transform: rotate(-1deg);
-  pointer-events: none;
 }
 
 .schedule-card:hover {
