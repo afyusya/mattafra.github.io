@@ -158,66 +158,62 @@ html, body {
 }
 
 .schedule {
-  padding: 32px;
-
-  /* Fill the full width */
-  width: 100%;
-
-  /* Vertical black-and-white stripes */
+  padding: 100px 20px;
   background-image: repeating-linear-gradient(
     90deg,
-    #fff,
-    #fff 20px,
-    #f4ece5 20px,
-    #000#f4ece5 40px
+    #000000,
+    #000000 20px,
+    #ffffff 20px,
+    #ffffff 40px
   );
   background-size: 40px 100%;
+  background-repeat: repeat-x;
 
-  /* Center the card within */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-attachment: scroll;
 
-  /* Fade-up on scroll */
-  transform: translateY(50px);
-  opacity: 0;
-  transition: transform 0.8s ease, opacity 0.8s ease;
+  animation: slideStripes 20s linear infinite;
+
+  text-align: center;
+
+  position: relative;
 }
 
-.schedule.active {
-  transform: translateY(0);
-  opacity: 1;
+/* Animate the background to slowly move */
+@keyframes slideStripes {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 40px;
+  }
 }
 
 .scheduleheader {
   margin-bottom: 16px;
   font-family: "Besom";
   font-size: 50px;
-  color: #000;
+  color: #000000;
 }
 
 .schedule-image {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   display: block;
+  margin: 0 auto 20px;
 }
 
 .schedule-card {
   padding: 32px;
   background-color: #fff;
-  max-width: 50%;
+  max-width: 90%;
+  margin: 0 auto;
   font-family: "MoreSugarRegular", cursive;
 
   box-shadow: 5px 5px 0px rgb(0 0 0 / 0.15);
-  transition: transform 0.3s ease;
-
   border: none;
+
+  position: relative;
 }
-/*
-.schedule-card:hover {
-  transform: rotate(-1deg);
-}
-*/
 
 .footer {
   background: #000;
