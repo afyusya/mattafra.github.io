@@ -343,18 +343,21 @@ html, body {
 }
 
 .overlay-text {
-  font-family: "MoreSugarThin";
+  font-family: "Besom";
   position: absolute;
-  top: 10%; /* adjust vertical position */
+  top: 10%;
   left: 50%;
-  transform: translateX(-50%) rotate(-5deg); /* center horizontally and tilt */
+  transform: translateX(-50%) rotate(-25deg);
   color: white;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
-  pointer-events: none; /* so clicks pass through */
+  white-space: nowrap;        /* Prevent line breaks */
+  letter-spacing: 0.2em;      /* Spread out letters, adjust as needed */
+  pointer-events: none;
   user-select: none;
 }
+
 
 /* Responsive tweaks */
 @media (max-width: 480px) {
