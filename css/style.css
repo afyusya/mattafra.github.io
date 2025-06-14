@@ -160,17 +160,20 @@ html, body {
 .schedule {
   padding: 32px;
 
+  /* Fill the full width */
+  width: 100%;
+
   /* Vertical black-and-white stripes */
   background-image: repeating-linear-gradient(
     90deg,
     #fff,
     #fff 20px,
-    #000 20px,
-    #000 40px
+    #f4ece5 20px,
+    #000#f4ece5 40px
   );
   background-size: 40px 100%;
 
-  /* Center the card */
+  /* Center the card within */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,10 +182,8 @@ html, body {
   transform: translateY(50px);
   opacity: 0;
   transition: transform 0.8s ease, opacity 0.8s ease;
-
 }
 
-/* This class will activate the fade-up */
 .schedule.active {
   transform: translateY(0);
   opacity: 1;
@@ -204,7 +205,7 @@ html, body {
 .schedule-card {
   padding: 32px;
   background-color: #fff;
-  max-width: 50%;
+  max-width: 90%;
   font-family: "MoreSugarRegular", cursive;
 
   box-shadow: 5px 5px 0px rgb(0 0 0 / 0.15);
@@ -212,10 +213,11 @@ html, body {
 
   border: none;
 }
-
+/*
 .schedule-card:hover {
   transform: rotate(-1deg);
 }
+*/
 
 .footer {
   background: #000;
