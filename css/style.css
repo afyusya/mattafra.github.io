@@ -151,22 +151,19 @@ html, body {
 
   max-width: 90%;
   margin: 0 auto;
-  border: 2px solid black;
-  border-radius: 8px;
 }
 
 .buttons-wrapper::before {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  border: 2px solid black;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+  border: 14px solid black;
   pointer-events: none;
   z-index: -1;
   box-sizing: border-box;
-  border-radius: 6px;
 }
 
 /* if you want me to add the wrapper div in HTML let me know! */
