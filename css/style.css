@@ -527,7 +527,7 @@ html, body {
 }
 /* Large screens */
 @media (min-width: 1024px) {
-  .text-overlay {
+  .overlay-text {
     font-size: 36px;
     top: 20px;
     left: 20px;
@@ -536,7 +536,7 @@ html, body {
 
 /* Medium screens */
 @media (max-width: 1023px) and (min-width: 600px) {
-  .text-overlay {
+  .overlay-text {
     font-size: 24px;
     top: 15px;
     left: 15px;
@@ -545,7 +545,7 @@ html, body {
 
 /* Small screens */
 @media (max-width: 599px) {
-  .text-overlay {
+  .overlay-text {
     font-size: 18px;
     top: 10px;
     left: 10px;
