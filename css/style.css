@@ -143,26 +143,30 @@ html, body {
 .menu-bar > .buttons-wrapper {
   position: relative;
   background-color: #f4ece5;
-  padding: 128px 700px;               /* reasonable padding */
+  padding: 32px 64px;   /* reasonable padding in px */
   display: flex;
-  gap: 1rem;
+  gap: 16px;
   box-sizing: border-box;
   z-index: 0;
-  /* Removed box-shadow inset */
+
+  max-width: 90%;
+  margin: 0 auto;       /* center wrapper */
+  border: 2px solid black;
+  border-radius: 8px;
 }
 
 .buttons-wrapper::before {
   content: "";
   position: absolute;
-  top: 2px;      /* match outer border thickness */
+  top: 2px;
   left: 2px;
   right: 2px;
   bottom: 2px;
-  border: 2px solid black;         /* inner border */
+  border: 2px solid black;     /* inner border */
   pointer-events: none;
   z-index: -1;
   box-sizing: border-box;
-  margin: 3px;
+  border-radius: 6px;
 }
 
 /* if you want me to add the wrapper div in HTML let me know! */
@@ -552,3 +556,18 @@ html, body {
   }
 }
 
+@media (max-width: 767px) {
+  .menu-bar > .buttons-wrapper {
+    padding: 24px 32px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 479px) {
+  .menu-bar > .buttons-wrapper {
+    padding: 16px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
