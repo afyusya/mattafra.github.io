@@ -143,14 +143,14 @@ html, body {
 .menu-bar > .buttons-wrapper {
   position: relative;
   background-color: #f4ece5;
-  padding: 32px 64px;   /* reasonable padding in px */
+  padding: 128px 300px;   /* big padding for large screens */
   display: flex;
   gap: 16px;
   box-sizing: border-box;
   z-index: 0;
 
   max-width: 90%;
-  margin: 0 auto;       /* center wrapper */
+  margin: 0 auto;
   border: 2px solid black;
   border-radius: 8px;
 }
@@ -162,7 +162,7 @@ html, body {
   left: 2px;
   right: 2px;
   bottom: 2px;
-  border: 2px solid black;     /* inner border */
+  border: 2px solid black;
   pointer-events: none;
   z-index: -1;
   box-sizing: border-box;
@@ -558,14 +558,15 @@ html, body {
 
 @media (max-width: 767px) {
   .menu-bar > .buttons-wrapper {
-    padding: 24px 32px;
+    padding: 96px 200px;
     gap: 12px;
   }
 }
 
+/* Reduce further for small screens */
 @media (max-width: 479px) {
   .menu-bar > .buttons-wrapper {
-    padding: 16px;
+    padding: 64px 100px;
     gap: 8px;
     flex-direction: column;
     align-items: center;
