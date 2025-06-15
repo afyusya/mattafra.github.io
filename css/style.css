@@ -160,7 +160,7 @@ html, body {
   left: 14px;
   right: 14px;
   bottom: 14px;
-  border: 14px solid black;
+  border: 1px solid black;
   pointer-events: none;
   z-index: -1;
   box-sizing: border-box;
