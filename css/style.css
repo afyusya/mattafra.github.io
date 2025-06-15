@@ -394,16 +394,19 @@ html, body {
   padding: 100px 20px;
   text-align: center;
   position: relative;
-  max-width: 60%;
+
+  width: 100%;
   margin: 0 auto;
 
   background-image: url("../images/illustration-library.png");
+
   background-size: cover;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 
-  min-height: 400px;          /* important */
+  min-height: 400px;
 }
+
 
 
 /* Responsive tweaks */
