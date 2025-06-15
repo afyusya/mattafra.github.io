@@ -398,12 +398,10 @@ html, body {
   max-width: 50%;
   margin: 0 auto;
 
-  background-image: url("images/Copy of Illustration library.png"); 
+  background-image: url("images/illustration-library.png"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  border: 2px solid black;
 }
 
 /* Responsive tweaks */
