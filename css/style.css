@@ -391,6 +391,20 @@ html, body {
   user-select: none;
 }
 
+.schedule {
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  max-width: 50%;
+  margin: 0 auto;
+
+  background-image: url("images/Copy of Illustration library.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 2px solid black;
+}
 
 /* Responsive tweaks */
 @media (max-width: 480px) {
