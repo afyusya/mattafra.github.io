@@ -122,9 +122,8 @@ html, body {
 
 .menu-bar {
   position: relative;
-  padding: 96px 16px;          /* taller */
+  padding: 80px 12px;          /* taller */
   margin-bottom: 50px;
- 
   background-image: repeating-linear-gradient(
     90deg,
     black 0,
@@ -144,7 +143,7 @@ html, body {
 .menu-bar > .buttons-wrapper {
   position: relative;
   background-color: #f4ece5;
-  padding: 120px 650px;               /* reasonable padding */
+  padding: 128px 700px;               /* reasonable padding */
   display: flex;
   gap: 1rem;
   box-sizing: border-box;
@@ -171,9 +170,9 @@ html, body {
 /* style each menu-button */
 .menu-button {
   font-family: "MoreSugarThin";
-  font-size: 18px;
+  font-size: 22px;
   background: #000;
-  color: #fff;
+  color: #f4ece5;
   padding: 9px 60px 4px;
   text-decoration: none;
   border-radius: 4px;
@@ -408,8 +407,9 @@ html, body {
   .menu-bar a {
     width: 100%;
     max-width: 195px;
-    font-size: 14px;
-    padding: 5px 60px 4px;
+    font-size: 18px;
+    padding: 10px 60px 6px;
+    color: #f4ece5;
   }
 
   .rsvp-button button {
