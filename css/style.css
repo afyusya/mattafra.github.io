@@ -382,8 +382,7 @@ html, body {
   left: 1%;
   transform: translateX(-50%) rotate(-23deg);
   color: #a70000;
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 68px;
   white-space: nowrap;        /* Prevent line breaks */
   letter-spacing: 0.2em;      /* Spread out letters, adjust as needed */
   pointer-events: none;
@@ -563,7 +562,7 @@ html, body {
   .overlay-text {
     font-size: 28px;
     top: 170px;
-    left: 90px;
+    left: 70px;
   }
 }
 
