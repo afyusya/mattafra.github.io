@@ -203,7 +203,7 @@ html, body {
 }
 
 .schedule-image {
-  max-width: 100%;          /* make sure image scales inside container */
+  max-width: 70%;          /* make sure image scales inside container */
   height: auto;
   display: block;
   margin: 0 auto;           /* center image if it's inline by default */
@@ -394,16 +394,12 @@ html, body {
   padding: 100px 20px;
   text-align: center;
   position: relative;
-
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
-
   background-image: url("../images/illustration-library.png");
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   min-height: 400px;
 }
 
