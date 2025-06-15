@@ -459,8 +459,8 @@ html, body {
   }
 
 .schedule-card {
-    padding: 1rem;
-    border-radius: 10px;
+    padding: 18px;
+    max-width: 100%;
   }
 
   .footer-inner {
