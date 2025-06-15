@@ -528,27 +528,27 @@ html, body {
 /* Large screens */
 @media (min-width: 1024px) {
   .overlay-text {
-    font-size: 36px;
-    top: 20px;
-    left: 20px;
+    font-size: 38px;
+    top: 400px;
+    left: 1px;
   }
 }
 
 /* Medium screens */
 @media (max-width: 1023px) and (min-width: 600px) {
   .overlay-text {
-    font-size: 24px;
-    top: 15px;
-    left: 15px;
+    font-size: 38px;
+    top: 400px;
+    left: 1px;
   }
 }
 
 /* Small screens */
 @media (max-width: 599px) {
   .overlay-text {
-    font-size: 18px;
-    top: 10px;
-    left: 10px;
+    font-size: 28px;
+    top: 170px;
+    left: 120px;
   }
 }
 
