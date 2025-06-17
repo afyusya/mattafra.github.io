@@ -228,6 +228,8 @@ html, body {
   position: relative;
   background: #f4ece5;
   display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .schedule-image-wrapper::before {
@@ -451,6 +453,15 @@ html, body {
     flex-direction: column;
     align-items: center;
   }
+
+   .schedule {
+    padding: 20px 5px;
+    max-width: 100%;
+  }
+
+  .schedule-image-wrapper {
+    padding: 5px;
+  }
 }
 
 /* Medium to small (max-width: 599px) */
@@ -520,15 +531,15 @@ html, body {
   }
 
   .scheduleheader {
-    font-size: 24px;
+    font-size: 34px;
   }
 
   .schedule {
-    padding: 50px 10px;
+    padding: 40px 10px;
   }
 
   .schedule-image {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .schedule-card {
@@ -619,6 +630,15 @@ html, body {
   .menu-bar > .buttons-wrapper {
     padding: 96px 200px;
     gap: 12px;
+  }
+
+  .schedule {
+    padding: 50px 10px;
+    max-width: 90%;
+  }
+
+  .schedule-image-wrapper {
+    padding: 10px;
   }
 }
 
