@@ -607,26 +607,31 @@ html, body {
 
 @media (max-width: 600px) {
   .menu-bar > .buttons-wrapper {
-    padding: 60px 20px;
+    padding: 20px;           /* much less padding */
     gap: 12px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background: #f4ece5;
+    position: relative;
+    box-sizing: border-box;
   }
 
-  .menu-bar a.menu-button {
-    padding: 10px 60px;
-    width: 100%;
-    max-width: 195px;
+  .menu-bar > .buttons-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid black;
+    pointer-events: none;
+    box-sizing: border-box;
   }
 }
 
-  .buttons-wrapper::before {
-    top: 14px;
-    left: 14px;
-    right: 14px;
-    bottom: 14px;
-    border-width: 1px;
-  }
-}
 
