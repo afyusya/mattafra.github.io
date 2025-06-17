@@ -143,7 +143,7 @@ html, body {
 .menu-bar > .buttons-wrapper {
   position: relative;
   background-color: #f4ece5;
-  padding: 128px 20px;   /* big padding for large screens */
+  padding: 100px 200px;   /* big padding for large screens */
   box-sizing: border-box;
   z-index: 0;
 
