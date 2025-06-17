@@ -430,13 +430,39 @@ html, body {
 
 
 /* Responsive tweaks */
-@media (max-width: 480px) {
+/* Small screens (max-width: 479px) */
+@media (max-width: 479px) {
   .home-button {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
+
+  .image-box {
+    max-width: 150px;
+  }
+
+  .photobooth-strip {
+    border-width: 6px;
+  }
+
+  .menu-bar > .buttons-wrapper {
+    padding: 64px 100px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
+/* Medium to small (max-width: 599px) */
+@media (max-width: 599px) {
+  .overlay-text {
+    font-size: 28px;
+    top: 170px;
+    left: 70px;
+  }
+}
+
+/* Small to medium (max-width: 600px) */
 @media (max-width: 600px) {
   .menu-bar {
     flex-direction: column;
@@ -497,7 +523,15 @@ html, body {
     font-size: 24px;
   }
 
-.schedule-card {
+  .schedule {
+    padding: 50px 10px;
+  }
+
+  .schedule-image {
+    max-width: 90%;
+  }
+
+  .schedule-card {
     padding: 18px;
     max-width: 100%;
   }
@@ -537,78 +571,7 @@ html, body {
   .faq-item p {
     font-size: 16px;
   }
-}
 
-@media (max-width: 768px) {
-  .gallery {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-
-  .image-box {
-    max-width: 180px;
-  }
-
-  .photobooth-strip {
-    transform: rotate(-10deg); /* Less tilt on smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .image-box {
-    max-width: 150px;
-  }
-
-  .photobooth-strip {
-    border-width: 6px;
-  }
-}
-/* Large screens */
-@media (min-width: 1024px) {
-  .overlay-text {
-    font-size: 38px;
-    top: 400px;
-    left: 1px;
-  }
-}
-
-/* Medium screens */
-@media (max-width: 1023px) and (min-width: 600px) {
-  .overlay-text {
-    font-size: 38px;
-    top: 400px;
-    left: 1px;
-  }
-}
-
-/* Small screens */
-@media (max-width: 599px) {
-  .overlay-text {
-    font-size: 28px;
-    top: 170px;
-    left: 70px;
-  }
-}
-
-@media (max-width: 767px) {
-  .menu-bar > .buttons-wrapper {
-    padding: 96px 200px;
-    gap: 12px;
-  }
-}
-
-/* Reduce further for small screens */
-@media (max-width: 479px) {
-  .menu-bar > .buttons-wrapper {
-    padding: 64px 100px;
-    gap: 8px;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (max-width: 600px) {
   .menu-bar > .buttons-wrapper {
     padding: 20px;
     gap: 12px;
@@ -622,7 +585,6 @@ html, body {
     background: #f4ece5;
     position: relative;
     box-sizing: border-box;
-    }
   }
 
   .menu-bar > .buttons-wrapper::before {
@@ -638,14 +600,42 @@ html, body {
   }
 }
 
-@media (max-width: 600px) {
-  .schedule {
-    padding: 50px 10px;
+/* Medium (max-width: 767px) */
+@media (max-width: 767px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
   }
 
-  .schedule-image {
-    max-width: 90%;
+  .image-box {
+    max-width: 180px;
+  }
+
+  .photobooth-strip {
+    transform: rotate(-10deg);
+  }
+
+  .menu-bar > .buttons-wrapper {
+    padding: 96px 200px;
+    gap: 12px;
   }
 }
 
+/* Large (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .overlay-text {
+    font-size: 38px;
+    top: 400px;
+    left: 1px;
+  }
+}
 
+/* Medium screens (between 600px and 1023px) */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .overlay-text {
+    font-size: 38px;
+    top: 400px;
+    left: 1px;
+  }
+}
