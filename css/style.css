@@ -189,29 +189,27 @@ html, body {
 }
 
 .scheduleheader {
-  margin-bottom: 1rem;
   font-family: "Besom";
-  font-size: 80px;
-  color: #000;
+  font-size: 50px;
+  color: #fff;
 }
 
 .schedule-card {
   position: relative;
-  padding: 55px;
+  padding: 25px;
   margin: 0 auto;
   max-width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f4ece5;
-  border: 2px solid black;
+  background-color: black;
 }
 
 .schedule {
   padding: 100px 20px;
   text-align: center;
   position: relative;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   background-image: url("../images/illustration-library.png");
   background-size: cover;
@@ -222,7 +220,6 @@ html, body {
 
 .schedule-image-wrapper {
   position: relative;
-  padding: 20px;
   background: #f4ece5;
   display: inline-block;
 }
@@ -230,17 +227,17 @@ html, body {
 .schedule-image-wrapper::before {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
   border: 1px solid black;
   pointer-events: none;
   box-sizing: border-box;
 }
 
 .schedule-image {
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
