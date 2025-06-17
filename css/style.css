@@ -143,16 +143,21 @@ html, body {
 .menu-bar > .buttons-wrapper {
   position: relative;
   background-color: #f4ece5;
-  padding: 128px 300px;   /* big padding for large screens */
-  display: flex;
-  gap: 16px;
+  padding: 128px 20px;   /* big padding for large screens */
   box-sizing: border-box;
   z-index: 0;
 
   max-width: 90%;
   margin: 0 auto;
+
+  border: 2px solid black;
+
+  /* Center and stack vertically on small screens */
+  display: flex;
+  gap: 16px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .buttons-wrapper::before {
@@ -171,17 +176,18 @@ html, body {
 /* if you want me to add the wrapper div in HTML let me know! */
 
 /* style each menu-button */
-.menu-button {
-  font-family: "MoreSugarThin";
-  font-size: 22px;
+.menu-bar a.menu-button {
+  font-family: "MoreSugarThin", sans-serif;
+  font-size: 18px;
   background: #000;
-  color: #f4ece5;
-  padding: 9px 60px 4px;
+  color: #fff;
+  padding: 10px 60px;
   text-decoration: none;
+  border-radius: 4px;
   text-align: center;
-  max-width: 200px;
-  display: inline-block;
-  cursor: pointer;
+
+  max-width: 195px;
+  width: 100%;
 }
 
 .scheduleheader {
@@ -585,15 +591,19 @@ html, body {
 
 @media (max-width: 600px) {
   .menu-bar > .buttons-wrapper {
-    padding: 60px 140px;
+    padding: 60px 20px;
     gap: 12px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
   }
+
+  .menu-bar a.menu-button {
+    padding: 10px 60px;
+    width: 100%;
+    max-width: 195px;
+  }
+}
 
   .buttons-wrapper::before {
     top: 14px;
