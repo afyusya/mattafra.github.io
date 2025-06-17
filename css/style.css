@@ -466,7 +466,7 @@ html, body {
 /* Medium to small (max-width: 599px) */
 @media (max-width: 599px) {
   .overlay-text {
-    font-size: 32px;
+    font-size: 28px;
     top: 170px;
     left: 70px;
   }
@@ -658,19 +658,23 @@ html, body {
     max-width: 90%;
   }
 
- .schedule-image-wrapper {
-    position: relative;
-    overflow: visible;
+.schedule-image-wrapper {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: #f4ece5;
+
+    /* Center its content */
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .schedule-image {
-    max-width: 130%;
+    max-width: 100%;
     height: auto;
-    transform: translateX(-15%);
-    /* This lets you center it while it's bigger than its wrapper */
     display: block;
   }
 }
