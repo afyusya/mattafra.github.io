@@ -409,8 +409,6 @@ html, body {
 .overlay-text {
   font-family: "Besom";
   position: absolute;
-  top: 55%;
-  left: 1%;
   transform: translateX(-50%) rotate(-23deg);
   color: #AD0034;
   font-size: 68px;
@@ -679,8 +677,8 @@ html, body {
 /* Large (min-width: 1024px) */
 @media (min-width: 1024px) {
   .overlay-text {
-    font-size: 38px;
-    top: 400px;
+    font-size: 68px;
+    top: 280px;
     left: 1px;
   }
 }
