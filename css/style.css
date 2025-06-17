@@ -658,14 +658,19 @@ html, body {
     max-width: 90%;
   }
 
-  .schedule-image-wrapper {
-    padding: 10px;
+ .schedule-image-wrapper {
+    position: relative;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .schedule-image {
-    max-width: 90%;
+    max-width: 130%;
     height: auto;
-    margin: 0 auto;
+    transform: translateX(-15%);
+    /* This lets you center it while it's bigger than its wrapper */
     display: block;
   }
 }
