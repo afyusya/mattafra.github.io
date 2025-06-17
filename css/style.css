@@ -140,26 +140,23 @@ html, body {
 
 /* wrap buttons in a container to add border around all buttons */
 .menu-bar > .buttons-wrapper {
-  position: relative;
-  background-color: #f4ece5;
-  padding: 100px 200px;   /* big padding for large screens */
+  padding: 128px 300px;   /* big padding for large screens */
+  gap: 16px;
   box-sizing: border-box;
   z-index: 0;
-
   max-width: 90%;
   margin: 0 auto;
-
   border: 2px solid black;
-
-  /* Center and stack vertically on small screens */
+  background: #f4ece5;
+  position: relative;
   display: flex;
-  gap: 16px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.buttons-wrapper::before {
+/* Inner border */
+.menu-bar > .buttons-wrapper::before {
   content: "";
   position: absolute;
   top: 14px;
@@ -168,11 +165,20 @@ html, body {
   bottom: 14px;
   border: 1px solid black;
   pointer-events: none;
-  z-index: -1;
   box-sizing: border-box;
 }
 
-/* if you want me to add the wrapper div in HTML let me know! */
+/* Buttons side by side on large screens */
+.menu-bar a.menu-button {
+  padding: 10px 60px;
+  max-width: 195px;
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+}
 
 /* style each menu-button */
 .menu-bar a.menu-button {
@@ -603,8 +609,9 @@ html, body {
 }
 
 @media (max-width: 600px) {
+@media (max-width: 600px) {
   .menu-bar > .buttons-wrapper {
-    padding: 20px;           /* much less padding */
+    padding: 20px;
     gap: 12px;
     flex-direction: column;
     align-items: center;
@@ -617,6 +624,7 @@ html, body {
     position: relative;
     box-sizing: border-box;
   }
+}
 
   .menu-bar > .buttons-wrapper::before {
     content: "";
