@@ -482,7 +482,7 @@ html, body {
   .overlay-text {
     font-size: 28px;
     top: 170px;
-    left: 78px;
+    left: 84px;
   }
 }
 
@@ -563,7 +563,7 @@ html, body {
   }
   
   .schedule-card {
-    padding: 18px;
+    padding: 14px;
     max-width: 100%;
   }
 
@@ -675,7 +675,7 @@ html, body {
   }
 
   .schedule {
-    padding: 50px 10px;
+    padding: 20px 50px;
     max-width: 100%;
   }
 
@@ -686,10 +686,6 @@ html, body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-  }
-
-  .schedule-image-wrapper {
-    padding: 0 15px;     /* increase padding on mobile */
   }
 }
 
