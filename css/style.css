@@ -478,7 +478,7 @@ html, body {
   .overlay-text {
     font-size: 28px;
     top: 170px;
-    left: 70px;
+    left: 73px;
   }
 }
 
@@ -672,7 +672,7 @@ html, body {
 
   .schedule {
     padding: 50px 10px;
-    max-width: 90%;
+    max-width: 100%;
   }
 
 .schedule-image-wrapper {
