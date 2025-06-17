@@ -627,9 +627,31 @@ html, body {
     transform: rotate(-10deg);
   }
 
-  .menu-bar > .buttons-wrapper {
-    padding: 96px 200px;
+   .menu-bar > .buttons-wrapper {
+    padding: 40px 20px;
     gap: 12px;
+    max-width: 300px;  /* controls the width of the wrapper */
+    width: 90%;
+    margin: 0 auto;     /* centers it */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;   /* optional border to highlight its shape */
+    background: #f4ece5;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .menu-bar > .buttons-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 1px solid black;
+    pointer-events: none;
+    box-sizing: border-box;
   }
 
   .schedule {
