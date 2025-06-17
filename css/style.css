@@ -625,7 +625,6 @@ html, body {
     }
   }
 
-
   .menu-bar > .buttons-wrapper::before {
     content: "";
     position: absolute;
@@ -636,6 +635,16 @@ html, body {
     border: 1px solid black;
     pointer-events: none;
     box-sizing: border-box;
+  }
+}
+
+@media (max-width: 600px) {
+  .schedule {
+    padding: 50px 10px;
+  }
+
+  .schedule-image {
+    max-width: 90%;
   }
 }
 
