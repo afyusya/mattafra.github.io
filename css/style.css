@@ -412,7 +412,7 @@ html, body {
   top: 55%;
   left: 1%;
   transform: translateX(-50%) rotate(-23deg);
-  color: #a70000;
+  color: #AD0034;
   font-size: 68px;
   white-space: nowrap;        /* Prevent line breaks */
   letter-spacing: 0.2em;      /* Spread out letters, adjust as needed */
@@ -468,7 +468,7 @@ html, body {
 @media (max-width: 599px) {
   .overlay-text {
     font-size: 28px;
-    top: 170px;
+    top: -180px;
     left: 84px;
   }
 }
