@@ -226,9 +226,12 @@ html, body {
 .schedule-image-wrapper {
   position: relative;
   background: #f4ece5;
-  display: inline-block;
-  padding: 0 10px;    /* add horizontal padding */
-  overflow: hidden;   /* clip any overflow */
+  display: block;        /* full width */
+  max-width: 100%;
+  overflow: hidden;      /* clip overflow */
+  padding: 0 15px;       /* inner padding so image doesn’t touch edges */
+  margin: 0 auto;        /* center wrapper */
+  box-sizing: border-box;
 }
 
 .schedule-image-wrapper::before {
@@ -676,12 +679,13 @@ html, body {
     max-width: 100%;
   }
 
- .schedule-image {
+.schedule-image {
     max-width: 115%;
     height: auto;
     display: block;
-    margin-left: auto;   /* center horizontally */
-    margin-right: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .schedule-image-wrapper {
