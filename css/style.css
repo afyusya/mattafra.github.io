@@ -431,6 +431,16 @@ html, body {
 
 
 /* Responsive tweaks */
+/* Extra small screens */
+@media (max-width: 400px) {
+  .schedule-image-wrapper::before {
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+  }
+}
+
 /* Small screens (max-width: 479px) */
 @media (max-width: 479px) {
   .home-button {
@@ -530,7 +540,7 @@ html, body {
   }
 
   .scheduleheader {
-    font-size: 34px;
+    font-size: 26px;
   }
 
   .schedule {
@@ -541,6 +551,13 @@ html, body {
     max-width: 100%;
   }
 
+  .schedule-image-wrapper::before {
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+  }
+  
   .schedule-card {
     padding: 18px;
     max-width: 100%;
@@ -659,9 +676,7 @@ html, body {
   }
 
 .schedule-image-wrapper {
-    padding: 10px;
     box-sizing: border-box;
-    border: 1px solid black;
     background: #f4ece5;
 
     /* Center its content */
@@ -694,5 +709,12 @@ html, body {
     font-size: 38px;
     top: 400px;
     left: 1px;
+  }
+
+  .schedule-image-wrapper::before {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
   }
 }
