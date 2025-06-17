@@ -466,9 +466,9 @@ html, body {
 /* Medium to small (max-width: 599px) */
 @media (max-width: 599px) {
   .overlay-text {
-    font-size: 38px;
+    font-size: 32px;
     top: 170px;
-    left: 78px;
+    left: 75px;
   }
 }
 
@@ -660,6 +660,13 @@ html, body {
 
   .schedule-image-wrapper {
     padding: 10px;
+  }
+
+  .schedule-image {
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
 }
 
